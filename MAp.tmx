@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.2" tiledversion="1.2.2" orientation="orthogonal" renderorder="right-down" width="100" height="100" tilewidth="32" tileheight="32" infinite="0" nextlayerid="4" nextobjectid="2">
+ <tileset firstgid="1" name="tiles" tilewidth="32" tileheight="32" tilecount="300" columns="20">
+  <image source="tiles.png" width="640" height="480"/>
+ </tileset>
+ <layer id="1" name="Слой тайлов 1" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJzt0UEJADAMwMDamX+D81A2yOMOoiBnZs4y3tu+8OMPP1r8aPGjxY8WP1r8aPGjxY8WP1r8aPGjxY8WPwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP64OcIkCg==
+  </data>
+ </layer>
+ <objectgroup id="3" name="Hero">
+  <object id="1" name="Main_Hero" type="Object" gid="194" x="65" y="90" width="32" height="32"/>
+ </objectgroup>
+</map>
