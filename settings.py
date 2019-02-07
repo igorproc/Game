@@ -1,0 +1,18 @@
+import pygame as pg
+vec = pg.math.Vector2
+
+WIDTH = 1024
+HEIGHT = 768
+FPS = 120
+TITLE = "Tilemap Demo"
+
+TILESIZE = 64
+GRIDWIDTH = WIDTH / TILESIZE
+GRIDHEIGHT = HEIGHT / TILESIZE
+
+WALL_IMG = 'tilemap.png'
+
+PLAYER_HEALTH = 100
+PLAYER_SPEED = 280
+PLAYER_ROT_SPEED = 200
+PLAYER_IMG = 'manBlue_gun.png'
